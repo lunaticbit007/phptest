@@ -16,10 +16,6 @@ class ReadDirectory
        closedir($dh);
      }
     }
-    else
-    {
-     echo "Not A Directory";
-    }
     return $directoriesArray;
    }
 
