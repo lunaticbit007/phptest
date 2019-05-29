@@ -1,14 +1,15 @@
 <?php
 
 function factorial( $n ) {
-
-  // Base case
-  if ( $n == 0 ) {
-    return 1;
+ 
+   $result = 1;
+ 
+  if ( $n != 0 ) {
+    for ($x=$n; $x>=1; $x--)   
+    {  
+    $result = $result * $x;  
+    }  
   }
-
-  // Recursion
-  $result = ( $n * factorial( $n-1 ) );
   return $result;
 }
 
