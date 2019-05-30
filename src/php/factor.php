@@ -2,8 +2,8 @@
 
 function factorial( $n ) {
  
-   $result = 1;
- //check is it greater than zero 
+   $result = 1; //Assigned default value 1 for 0 
+      //check is it greater than zero  
   if ( $n > 0 ) {
     for ($x=$n; $x>=1; $x--)   
     {  
